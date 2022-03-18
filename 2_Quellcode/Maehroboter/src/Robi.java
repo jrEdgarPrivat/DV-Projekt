@@ -10,14 +10,14 @@ import javax.swing.JSlider;
 
 public class Robi extends Thread {
 
-	double richtung;
+	double richtung, bla;
 	double maxStep; // bestimmt, wie schnell sich der Roboter bewegen kann
 	Color farbe;
 	Point position; // bezieht sich auf den Mittelpunkt des Roboters
 	
 	Dimension d; // Breite und Höhe des Roboters
 	
-	boolean doMove; 
+	boolean doMove, doof; 
 	Grundstueck1 grund;
 	int vLinks, vRechts;
 	
